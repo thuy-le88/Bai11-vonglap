@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bảng cửu chương</title>
+</head>
+<body>
+<script>
+    bangcc="<table border='1'>"
+    for (i=1;i<10;i++) {
+        bangcc=bangcc+"<tr>";
+        for (j=2;j<10;j++) {
+            bangcc=bangcc+"<td width='100px'>"+j + "x" + i + "=" +j*i+"</td>";
+        }
+        bangcc=bangcc+"</tr>"
+    }
+    bangcc=bangcc+"</table>";
+    document.write(bangcc);
+
+</script>
+</body>
+</html>
